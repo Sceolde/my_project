@@ -1,0 +1,7 @@
+let euro_rate = 78.26;
+let dollar_rate = 69.74;
+let rubles = +prompt("Введите сумму в рублях");
+let euro_sum=rubles/euro_rate;
+alert("Сумма в евро: " +euro_sum);
+let dollar_sum=rubles/dollar_rate;
+alert("Сумма в долларах: " +dollar_sum);
